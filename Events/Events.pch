@@ -1,0 +1,22 @@
+//
+//  Events.pch
+//  Events
+//
+//  Created by tianliwei on 6/15/15.
+//  Copyright (c) 2015 Beijing Jaeger Communication Electronic Technology Co.,Ltd. All rights reserved.
+//
+
+#ifndef Events_Events_pch
+#define Events_Events_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#if DEBUG
+#warning NSLogs will be shown
+#else
+#define NSLog(...) {}
+#endif
+
+#endif

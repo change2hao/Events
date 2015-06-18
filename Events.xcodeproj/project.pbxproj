@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86FA41624CBFE23A738AE828 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5545C2211810A63A649F9B7 /* libPods.a */; };
+		9944E6B11B30157300D0774D /* ActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6B01B30157300D0774D /* ActivityModel.m */; };
+		9944E6B41B3018A600D0774D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9944E6B21B3018A600D0774D /* Login.storyboard */; };
+		9944E6B71B3018F400D0774D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6B61B3018F400D0774D /* LoginViewController.m */; };
+		9944E6BA1B301A8D00D0774D /* GlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6B91B301A8D00D0774D /* GlobalConstants.m */; };
+		9944E6BE1B3022AC00D0774D /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6BD1B3022AC00D0774D /* ActivityCell.m */; };
+		9944E6C11B31059600D0774D /* ActivityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6C01B31059600D0774D /* ActivityDetailViewController.m */; };
+		9944E6C41B311F3B00D0774D /* StatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6C31B311F3B00D0774D /* StatusManager.m */; };
+		9944E6CC1B3150CB00D0774D /* UploadSuccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944E6CB1B3150CB00D0774D /* UploadSuccessModel.m */; };
 		999674901B2E639600058A88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9996748F1B2E639600058A88 /* main.m */; };
 		999674931B2E639600058A88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674921B2E639600058A88 /* AppDelegate.m */; };
-		999674961B2E639600058A88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674951B2E639600058A88 /* ViewController.m */; };
+		999674961B2E639600058A88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674951B2E639600058A88 /* MainViewController.m */; };
 		999674991B2E639600058A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999674971B2E639600058A88 /* Main.storyboard */; };
 		9996749B1B2E639600058A88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9996749A1B2E639600058A88 /* Images.xcassets */; };
 		9996749E1B2E639600058A88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9996749C1B2E639600058A88 /* LaunchScreen.xib */; };
 		999674AA1B2E639700058A88 /* EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674A91B2E639600058A88 /* EventsTests.m */; };
+		999674B71B2E691100058A88 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 999674B41B2E691100058A88 /* libWeChatSDK.a */; };
+		999674B91B2E693500058A88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999674B81B2E693500058A88 /* SystemConfiguration.framework */; };
+		999674BB1B2E693E00058A88 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 999674BA1B2E693E00058A88 /* libz.dylib */; };
+		999674BD1B2E694B00058A88 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 999674BC1B2E694B00058A88 /* libsqlite3.0.dylib */; };
+		999674CB1B2E876200058A88 /* WechatConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674CA1B2E876200058A88 /* WechatConstants.m */; };
+		999674CE1B2E99C000058A88 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674CD1B2E99C000058A88 /* HttpManager.m */; };
+		999674D11B2EA79700058A88 /* AccessTokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674D01B2EA79700058A88 /* AccessTokenModel.m */; };
+		999674D41B2EAFDD00058A88 /* UrlFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674D31B2EAFDD00058A88 /* UrlFormatter.m */; };
+		999674D71B2EB0FA00058A88 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 999674D61B2EB0FA00058A88 /* UserInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +45,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FC7CEE918B252189B7A8DB5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9944E6AF1B30157300D0774D /* ActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityModel.h; sourceTree = "<group>"; };
+		9944E6B01B30157300D0774D /* ActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityModel.m; sourceTree = "<group>"; };
+		9944E6B31B3018A600D0774D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Events/Base.lproj/Login.storyboard; sourceTree = SOURCE_ROOT; };
+		9944E6B51B3018F400D0774D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9944E6B61B3018F400D0774D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9944E6B81B301A8D00D0774D /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		9944E6B91B301A8D00D0774D /* GlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConstants.m; sourceTree = "<group>"; };
+		9944E6BC1B3022AC00D0774D /* ActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		9944E6BD1B3022AC00D0774D /* ActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		9944E6BF1B31059600D0774D /* ActivityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailViewController.h; sourceTree = "<group>"; };
+		9944E6C01B31059600D0774D /* ActivityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailViewController.m; sourceTree = "<group>"; };
+		9944E6C21B311F3B00D0774D /* StatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusManager.h; sourceTree = "<group>"; };
+		9944E6C31B311F3B00D0774D /* StatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusManager.m; sourceTree = "<group>"; };
+		9944E6C61B314BFF00D0774D /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		9944E6CA1B3150CB00D0774D /* UploadSuccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadSuccessModel.h; sourceTree = "<group>"; };
+		9944E6CB1B3150CB00D0774D /* UploadSuccessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadSuccessModel.m; sourceTree = "<group>"; };
+		9944E6CD1B315FD700D0774D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9944E6CE1B315FD700D0774D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		9996748A1B2E639600058A88 /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9996748E1B2E639600058A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9996748F1B2E639600058A88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		999674911B2E639600058A88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		999674921B2E639600058A88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		999674941B2E639600058A88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		999674951B2E639600058A88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		999674941B2E639600058A88 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		999674951B2E639600058A88 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		999674981B2E639600058A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9996749A1B2E639600058A88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9996749D1B2E639600058A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		999674A31B2E639600058A88 /* EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		999674A81B2E639600058A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999674A91B2E639600058A88 /* EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsTests.m; sourceTree = "<group>"; };
+		999674B41B2E691100058A88 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		999674B51B2E691100058A88 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		999674B61B2E691100058A88 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		999674B81B2E693500058A88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		999674BA1B2E693E00058A88 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		999674BC1B2E694B00058A88 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		999674C91B2E876200058A88 /* WechatConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatConstants.h; sourceTree = "<group>"; };
+		999674CA1B2E876200058A88 /* WechatConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatConstants.m; sourceTree = "<group>"; };
+		999674CC1B2E99C000058A88 /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		999674CD1B2E99C000058A88 /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		999674CF1B2EA79700058A88 /* AccessTokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessTokenModel.h; sourceTree = "<group>"; };
+		999674D01B2EA79700058A88 /* AccessTokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessTokenModel.m; sourceTree = "<group>"; };
+		999674D21B2EAFDD00058A88 /* UrlFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlFormatter.h; sourceTree = "<group>"; };
+		999674D31B2EAFDD00058A88 /* UrlFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlFormatter.m; sourceTree = "<group>"; };
+		999674D51B2EB0FA00058A88 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		999674D61B2EB0FA00058A88 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		999674D81B2EEB2900058A88 /* Events.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Events.pch; sourceTree = "<group>"; };
+		B5545C2211810A63A649F9B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F929A033122C70952F45B148 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +103,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999674BD1B2E694B00058A88 /* libsqlite3.0.dylib in Frameworks */,
+				999674BB1B2E693E00058A88 /* libz.dylib in Frameworks */,
+				999674B91B2E693500058A88 /* SystemConfiguration.framework in Frameworks */,
+				999674B71B2E691100058A88 /* libWeChatSDK.a in Frameworks */,
+				86FA41624CBFE23A738AE828 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +121,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34CB62DC141C40494BCA4D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7CEE918B252189B7A8DB5 /* Pods.debug.xcconfig */,
+				F929A033122C70952F45B148 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F8615AE5AAE7DECB9B91B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5545C2211810A63A649F9B7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9944E6BB1B30225700D0774D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9944E6BC1B3022AC00D0774D /* ActivityCell.h */,
+				9944E6BD1B3022AC00D0774D /* ActivityCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		999674811B2E639600058A88 = {
 			isa = PBXGroup;
 			children = (
+				999674BC1B2E694B00058A88 /* libsqlite3.0.dylib */,
+				999674BA1B2E693E00058A88 /* libz.dylib */,
+				999674B81B2E693500058A88 /* SystemConfiguration.framework */,
 				9996748C1B2E639600058A88 /* Events */,
 				999674A61B2E639600058A88 /* EventsTests */,
 				9996748B1B2E639600058A88 /* Products */,
+				34CB62DC141C40494BCA4D9F /* Pods */,
+				6F8615AE5AAE7DECB9B91B76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +173,23 @@
 		9996748C1B2E639600058A88 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				9944E6BB1B30225700D0774D /* View */,
+				999674C81B2E866A00058A88 /* Consts */,
+				999674C11B2E715300058A88 /* Model */,
+				999674B31B2E691100058A88 /* WechatSDK */,
 				999674911B2E639600058A88 /* AppDelegate.h */,
 				999674921B2E639600058A88 /* AppDelegate.m */,
-				999674941B2E639600058A88 /* ViewController.h */,
-				999674951B2E639600058A88 /* ViewController.m */,
+				999674941B2E639600058A88 /* MainViewController.h */,
+				999674951B2E639600058A88 /* MainViewController.m */,
+				9944E6B51B3018F400D0774D /* LoginViewController.h */,
+				9944E6B61B3018F400D0774D /* LoginViewController.m */,
+				9944E6BF1B31059600D0774D /* ActivityDetailViewController.h */,
+				9944E6C01B31059600D0774D /* ActivityDetailViewController.m */,
+				9944E6B21B3018A600D0774D /* Login.storyboard */,
 				999674971B2E639600058A88 /* Main.storyboard */,
 				9996749A1B2E639600058A88 /* Images.xcassets */,
 				9996749C1B2E639600058A88 /* LaunchScreen.xib */,
+				9944E6C61B314BFF00D0774D /* Macros.h */,
 				9996748D1B2E639600058A88 /* Supporting Files */,
 			);
 			path = Events;
@@ -98,6 +200,7 @@
 			children = (
 				9996748E1B2E639600058A88 /* Info.plist */,
 				9996748F1B2E639600058A88 /* main.m */,
+				999674D81B2EEB2900058A88 /* Events.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +222,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		999674B31B2E691100058A88 /* WechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				999674B41B2E691100058A88 /* libWeChatSDK.a */,
+				999674B51B2E691100058A88 /* WXApi.h */,
+				999674B61B2E691100058A88 /* WXApiObject.h */,
+			);
+			name = WechatSDK;
+			path = wechatSDK;
+			sourceTree = "<group>";
+		};
+		999674C11B2E715300058A88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				999674CC1B2E99C000058A88 /* HttpManager.h */,
+				999674CD1B2E99C000058A88 /* HttpManager.m */,
+				999674CF1B2EA79700058A88 /* AccessTokenModel.h */,
+				999674D01B2EA79700058A88 /* AccessTokenModel.m */,
+				999674D21B2EAFDD00058A88 /* UrlFormatter.h */,
+				999674D31B2EAFDD00058A88 /* UrlFormatter.m */,
+				999674D51B2EB0FA00058A88 /* UserInfoModel.h */,
+				999674D61B2EB0FA00058A88 /* UserInfoModel.m */,
+				9944E6AF1B30157300D0774D /* ActivityModel.h */,
+				9944E6B01B30157300D0774D /* ActivityModel.m */,
+				9944E6C21B311F3B00D0774D /* StatusManager.h */,
+				9944E6C31B311F3B00D0774D /* StatusManager.m */,
+				9944E6CA1B3150CB00D0774D /* UploadSuccessModel.h */,
+				9944E6CB1B3150CB00D0774D /* UploadSuccessModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		999674C81B2E866A00058A88 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				999674C91B2E876200058A88 /* WechatConstants.h */,
+				999674CA1B2E876200058A88 /* WechatConstants.m */,
+				9944E6B81B301A8D00D0774D /* GlobalConstants.h */,
+				9944E6B91B301A8D00D0774D /* GlobalConstants.m */,
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 999674AD1B2E639700058A88 /* Build configuration list for PBXNativeTarget "Events" */;
 			buildPhases = (
+				7583FB15B57061134536BEFC /* Check Pods Manifest.lock */,
 				999674861B2E639600058A88 /* Sources */,
 				999674871B2E639600058A88 /* Frameworks */,
 				999674881B2E639600058A88 /* Resources */,
+				6022BDA1D873D215A1ED68D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9944E6B41B3018A600D0774D /* Login.storyboard in Resources */,
 				999674991B2E639600058A88 /* Main.storyboard in Resources */,
 				9996749E1B2E639600058A88 /* LaunchScreen.xib in Resources */,
 				9996749B1B2E639600058A88 /* Images.xcassets in Resources */,
@@ -214,14 +363,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6022BDA1D873D215A1ED68D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7583FB15B57061134536BEFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		999674861B2E639600058A88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999674961B2E639600058A88 /* ViewController.m in Sources */,
+				999674D41B2EAFDD00058A88 /* UrlFormatter.m in Sources */,
+				999674D11B2EA79700058A88 /* AccessTokenModel.m in Sources */,
+				9944E6BE1B3022AC00D0774D /* ActivityCell.m in Sources */,
+				9944E6CC1B3150CB00D0774D /* UploadSuccessModel.m in Sources */,
+				9944E6C41B311F3B00D0774D /* StatusManager.m in Sources */,
+				999674D71B2EB0FA00058A88 /* UserInfoModel.m in Sources */,
+				999674961B2E639600058A88 /* MainViewController.m in Sources */,
 				999674931B2E639600058A88 /* AppDelegate.m in Sources */,
 				999674901B2E639600058A88 /* main.m in Sources */,
+				9944E6B11B30157300D0774D /* ActivityModel.m in Sources */,
+				999674CE1B2E99C000058A88 /* HttpManager.m in Sources */,
+				999674CB1B2E876200058A88 /* WechatConstants.m in Sources */,
+				9944E6B71B3018F400D0774D /* LoginViewController.m in Sources */,
+				9944E6BA1B301A8D00D0774D /* GlobalConstants.m in Sources */,
+				9944E6C11B31059600D0774D /* ActivityDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +438,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9944E6B21B3018A600D0774D /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9944E6B31B3018A600D0774D /* Base */,
+			);
+			name = Login.storyboard;
+			path = wechatSDK;
+			sourceTree = "<group>";
+		};
 		999674971B2E639600058A88 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				999674981B2E639600058A88 /* Base */,
+				9944E6CD1B315FD700D0774D /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +460,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9996749D1B2E639600058A88 /* Base */,
+				9944E6CE1B315FD700D0774D /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -345,20 +550,36 @@
 		};
 		999674AE1B2E639700058A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC7CEE918B252189B7A8DB5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = Events/Events.pch;
 				INFOPLIST_FILE = Events/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Events/wechatSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		999674AF1B2E639700058A88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F929A033122C70952F45B148 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = Events/Events.pch;
 				INFOPLIST_FILE = Events/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Events/wechatSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +637,7 @@
 				999674AF1B2E639700058A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		999674B01B2E639700058A88 /* Build configuration list for PBXNativeTarget "EventsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +646,7 @@
 				999674B21B2E639700058A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
