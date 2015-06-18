@@ -72,6 +72,7 @@
     if ([mediaType isEqualToString:@"public.image"]){
         UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
         HttpManager *manager = [[HttpManager alloc] init];
+        [SVProgressHUD show];
         [manager postPhotoWithData:image parameter:[StatusManager parameter] completion:^(MTLModel *result) {
             UploadSuccessModel *model = (UploadSuccessModel *)result;
             if ([model.errorCode integerValue] == 0){
